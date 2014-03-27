@@ -1,0 +1,58 @@
+html {
+	height: 100%;
+	background: #e9e9e9;
+}
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #444;
+	background: #e9e9e9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e9e9e9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e9e9e9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e9e9e9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#e9e9e9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#e9e9e9 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#e9e9e9 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e9e9e9',GradientType=0 ); /* IE6-9 */
+	font-size: 100%;
+	min-height:100%;
+	padding: 1em;
+	margin: 0;
+	color: blue;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	margin: 0;
+	font-weight: 300;
+	text-align: center;
+	font-size: 300%;
+}
+
+small {
+	text-align: center;
+	color:#999;
+	margin-bottom:1.5em;
+	display: block;
+	font-size: 90%
+}
+
+.oridomi-active{background-color:transparent !important;background-image:none !important;-webkit-box-sizing:border-box !important;border:none !important;outline:none !important;padding:0 !important;position:relative;-webkit-transform-style:preserve-3d !important;-webkit-mask:none !important;}.oridomi-clone{margin:0 !important;-webkit-box-sizing:border-box !important;overflow:hidden !important;display:block !important;}.oridomi-holder{width:100%;position:absolute;top:0;bottom:0;-webkit-transform-style:preserve-3d;}.oridomi-stage{width:100%;height:100%;position:absolute;-webkit-transform:translate3d(-9999px, 0, 0);margin:0;padding:0;-webkit-transform-style:preserve-3d;}.oridomi-stage-left{-webkit-perspective-origin:0% 50%;}.oridomi-stage-right{-webkit-perspective-origin:100% 50%;}.oridomi-stage-top{-webkit-perspective-origin:50% 0%;}.oridomi-stage-bottom{-webkit-perspective-origin:50% 100%;}.oridomi-shader{width:100%;height:100%;position:absolute;opacity:0;top:0;left:0;pointer-events:none;-webkit-transition-property:opacity;}.oridomi-shader-left{background:-webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(255, 255, 255, .35) 100%);}.oridomi-shader-right{background:-webkit-linear-gradient(right, rgba(0, 0, 0, .5) 0%, rgba(255, 255, 255, .35) 100%);}.oridomi-shader-top{background:-webkit-linear-gradient(top, rgba(0, 0, 0, .5) 0%, rgba(255, 255, 255, .35) 100%);}.oridomi-shader-bottom{background:-webkit-linear-gradient(bottom, rgba(0, 0, 0, .5) 0%, rgba(255, 255, 255, .35) 100%);}.oridomi-content{margin:0 !important;position:relative !important;float:none !important;-webkit-box-sizing:border-box !important;overflow:hidden !important;}.oridomi-mask{width:100%;height:100%;position:absolute;overflow:hidden;-webkit-transform:translate3d(0, 0, 0);outline:1px solid transparent;}.oridomi-panel{width:100%;height:100%;padding:0;position:relative;-webkit-transition-property:-webkit-transform;-webkit-transform-origin:left;-webkit-transform-style:preserve-3d;}.oridomi-panel-h{-webkit-transform-origin:top;}.oridomi-stage-right .oridomi-panel{-webkit-transform-origin:right;}.oridomi-stage-bottom .oridomi-panel{-webkit-transform-origin:bottom;}
+
+.origami {
+	display: block;
+	max-width: 80rem;
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+	background-image: url("../images/jersey.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-position: top center;
+	height: 30rem;
+}
